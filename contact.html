@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <header>
+    <div class="header-container">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="news.html">Blog</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a href="index.html" class="logo"
+        ><img src="images/My project-1(4).jpg"
+      /></a>
+      <div class="search">
+        <label for="search"></label>
+        <input
+          type="text"
+          name="Search"
+          id="search"
+          placeholder="Search for post"
+        />
+        <button type="submit">Search</button>
+      </div>
+    </div>
+  </header>
+  <body>
+    <main class ="body-container">
+    <fieldset>
+      <legend>Contact us</legend>
+      <form id="contactForm">
+        <div>
+          <label class="form-label">
+            Name (required)
+            <input class="form-input" name="name" id="name" />
+          </label>
+          <div class="error" id="nameError">
+            Enter your full name, min 5 characters
+          </div>
+        </div>
+
+        <div>
+          <label class="form-label">
+            Email (required)
+            <input class="form-input" name="email" id="email" />
+          </label>
+          <div class="error" id="emailError">Enter your email adresse</div>
+        </div>
+        <div>
+          <label class="form-label">
+            Subject (required)
+            <input class="form-input" name="subject" id="subject" />
+          </label>
+          <div class="error" id="subjectError">
+            Enter subject, min 15 characters
+          </div>
+        </div>
+        <div>
+          <label class="form-label">
+            Message (required)
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="30"
+              class="form-input"
+            ></textarea>
+          </label>
+          <div class="error" id="messageError">
+            Write your message, min 25 characters
+          </div>
+          <button>Submit</button>
+        </div>
+      </form>
+    </fieldset>
+  </main>
+    <footer>
+      <section>
+        <ul>
+          Copyright &copy;
+            <li><a href="contact.html" class="cta">Contact</a></li>
+            <li><a href="faq.html" class="cta">FAQ</a></li>
+            <li><a href="terms.html" class="cta">Terms</a></li>
+          </section>
+        </ul>
+    </footer>
+    <script src="js/contact.js"></script>
+  </body>
+</html>
