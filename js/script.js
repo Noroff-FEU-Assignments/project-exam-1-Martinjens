@@ -1,4 +1,4 @@
-const baseUrlTwo = "https://gamerage.schoolwork.one/wp-json/wp/v2/posts";
+const baseUrl = "https://gamerage.schoolwork.one/wp-json/wp/v2/posts";
 const productDetailtContainer1 = document.querySelector(".product");
 
 async function getProductDetails(url, id) {
@@ -28,4 +28,4 @@ function getParameterByName(name, url = window.location.href) {
 }
 const productId = getParameterByName("id");
 
-getProductDetails(baseUrlTwo, productId);
+getProductDetails(baseUrl, productId);
