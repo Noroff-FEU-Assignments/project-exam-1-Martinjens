@@ -1,0 +1,31 @@
+.product-details{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   
+}
+
+.product-details > *{
+   
+    flex:1;
+    
+}
+
+.flex-item{
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer{
+    color:white;
+    background-color: black;
+    display:block;
+    width:100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 350px;
+}

@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="css/styles.css" rel="stylesheet" />
+    <script
+    src="https://kit.fontawesome.com/369239824e.js"
+    crossorigin="anonymous"
+  ></script>
   </head>
   <header>
     <div class="header-container">
-      <nav class="nav">
+      <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="hamburger-menu">
+      <nav>
+        <ul>
+          <li>
         <a href="index.html">Home</a>
         <a href="news.html">Blog</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
+          </li>
+        </ul>
       </nav>
       <a href="index.html" class="logo"
-        ><img src="images/My project-1(5).jpg"
+        ><img class="logoimg" src="images/My project-1(4).jpg"
       /></a>
       <div class="search">
         <label for="search"></label>
@@ -32,19 +42,20 @@
   </header>
   <body class ="body-container">
     <section class="slider-wrapper">
-      <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+      <button class="slide-arrow" id="previous-btn">&#8249;</button>
 
-      <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+      <button class="slide-arrow" id="next-btn">&#8250;</button>
 
-      <ul class="slides-container" id="slides-container">
+      <ul class="slider-container" id="slider-container">
         <li class="slide"></li>
         <li class="slide"></li>
         <li class="slide"></li>
         <li class="slide"></li>
       </ul>
     </section>
+    <script src="js/index.js"></script>
     <script src="js/script.js"></script>
-    <footer>
+    <footer class="footer-class">
       <section>
         <ul>
           Copyright &copy;

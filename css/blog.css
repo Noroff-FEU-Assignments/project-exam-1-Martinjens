@@ -1,0 +1,62 @@
+
+
+
+.fa-solid {
+    color:white;
+  }
+  
+a {
+color:white;
+background-color: black;
+padding:15px;
+border-radius: 15px;
+
+}
+
+
+.product-details{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+   
+}
+
+.product-details > *{
+   
+    flex:1;
+    
+}
+
+.flex-item{
+    margin-top: 20px;
+    text-align: center;
+}
+.flex-item:nth-child(even) {
+    background-color: black;
+    color:white;
+}
+
+.flex-item:nth-child(odd) {
+    background-color: white;
+    color:black;
+    
+}
+img{
+    height: 300px;
+    width: 350px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer{
+    display:block;
+    color:white;
+    background-color: black;
+    display:block;
+    width:100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    margin-top: 20px;
+}

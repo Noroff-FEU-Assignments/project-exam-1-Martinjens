@@ -1,8 +1,9 @@
 .body-container {
-    display:grid;
-    gap: 1.5rem;
-    grid-template-columns: 1fr;
+   display:flex;
+   align-content: center;
 }
+
+
 
 .form-input{
     width: 100%;
@@ -42,5 +43,14 @@ fieldset{
     margin-top:2px;
 }
 
-
+footer{
+    color:white;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    display:block;
+    width:100%;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+}
 
