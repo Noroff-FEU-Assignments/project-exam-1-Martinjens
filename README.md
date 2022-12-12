@@ -2,9 +2,6 @@
 
 <img class="logoimg" src="images/My project-1(5).jpg"/>
 
-A simple overview of the use/purpose of the project.
-This is my Project Exam 1
-
 ## Description
 
 Add a more detailed description of what your project entails and set out to do.
